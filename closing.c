@@ -10,6 +10,11 @@
 int main()
 {
     //complete the code here
+    
+    /*
+    Use the data below for employees array;
+    "software developer", "10-10-2022", 5000  &  "web developer", "05-05-2021", 5000
+    */
 
     for (int i = 0; i < 2; i++) {
         printf("position: %s, date started: %s, salary: %d\n",
@@ -18,3 +23,5 @@ int main()
 
     return 0;
 }
+
+
