@@ -53,6 +53,7 @@ int main(void) {
 
 
 	// do not change the below code
+	// replace this in the part 2
 	for (int i = 0; i < numTeam; i++) {
 		printf("\n%d. team's name: %s\n", i + 1, teams[i].teamName);
 		printf("===========================\n");
@@ -68,4 +69,19 @@ int main(void) {
 }
 
 
+/*
+REPLACE THE CODE WITH THE OLDER VERSION IN THE PART-2
 
+for (int i = 0; i < numTeam; i++) {
+	printf("\n%d. team's name: %s\n", i + 1, teams[i].teamName);
+	printf("===========================\n");
+	printf("%d. team's players:\n", i + 1);
+	for (int j = 0; j < NUMPLAYERS; j++) {
+		printf("%d. player's name: %s \n", j + 1, teams[i].players[j].fullName);
+		printf("%d. player's offensive power: %d, defensive power: %d, shooting power: %d\n", j + 1, 
+			teams[i].players[j].powers.offense, teams[i].players[j].powers.defense, teams[i].players[j].powers.shooting);
+	}
+	printf("%d. team's total power: %d\n", i + 1, teams[i].totalPower);
+	printf("===========================\n\n");
+}
+*/
